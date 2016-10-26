@@ -1,0 +1,20 @@
+﻿Build started 10/26/2016 4:49:38 AM.
+     1>Project "C:\Users\SilentSky\documents\visual studio 2012\Projects\TestingSFMLNetwork\TestingSFMLNetwork\TestingSFMLNetwork.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /I"C:\Users\SilentSky\documents\visual studio 2012\Projects\TestingSFMLNetwork\/SFML-2.4.0/include" /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt pSocket.cpp
+         pSocket.cpp
+     1>c:\users\silentsky\documents\visual studio 2012\projects\testingsfmlnetwork\testingsfmlnetwork\psocket.cpp(12): warning C4244: 'argument' : conversion from 'float' to 'unsigned int', possible loss of data
+     1>c:\users\silentsky\documents\visual studio 2012\projects\testingsfmlnetwork\testingsfmlnetwork\psocket.cpp(46): warning C4244: 'argument' : conversion from 'float' to 'unsigned int', possible loss of data
+     1>c:\users\silentsky\documents\visual studio 2012\projects\testingsfmlnetwork\testingsfmlnetwork\psocket.cpp(148): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>c:\users\silentsky\documents\visual studio 2012\projects\testingsfmlnetwork\testingsfmlnetwork\psocket.cpp(171): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\silentsky\documents\visual studio 2012\projects\testingsfmlnetwork\testingsfmlnetwork\psocket.cpp(172): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>c:\users\silentsky\documents\visual studio 2012\projects\testingsfmlnetwork\testingsfmlnetwork\psocket.cpp(176): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\SilentSky\documents\visual studio 2012\Projects\TestingSFMLNetwork\Debug\TestingSFMLNetwork.exe" /INCREMENTAL /NOLOGO /LIBPATH:"C:\Users\SilentSky\documents\visual studio 2012\Projects\TestingSFMLNetwork\/SFML-2.4.0/lib" "sfml-main-d.lib" "sfml-graphics-d.lib" "sfml-window-d.lib" "sfml-system-d.lib" "sfml-audio-d.lib" "sfml-network-d.lib" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\SilentSky\documents\visual studio 2012\Projects\TestingSFMLNetwork\Debug\TestingSFMLNetwork.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\SilentSky\documents\visual studio 2012\Projects\TestingSFMLNetwork\Debug\TestingSFMLNetwork.lib" /MACHINE:X86 Debug\pSocket.obj
+         Debug\Source.obj
+         TestingSFMLNetwork.vcxproj -> C:\Users\SilentSky\documents\visual studio 2012\Projects\TestingSFMLNetwork\Debug\TestingSFMLNetwork.exe
+     1>Done Building Project "C:\Users\SilentSky\documents\visual studio 2012\Projects\TestingSFMLNetwork\TestingSFMLNetwork\TestingSFMLNetwork.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.57
